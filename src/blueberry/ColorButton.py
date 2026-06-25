@@ -2,7 +2,7 @@ from PyQt6.QtWidgets import QPushButton
 from PyQt6.QtCore import pyqtSignal
 from PyQt6.QtGui import QColor
 
-from src.ColorSelector import select_color
+from .ColorSelector import select_color
 
 class ColorButton(QPushButton):
     """

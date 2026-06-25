@@ -18,7 +18,7 @@ from PyQt6.QtGui import (
     QPen, QGuiApplication, QWheelEvent
 )
 from PyQt6.QtCore import Qt, QPoint, pyqtSignal
-from src.ColorManager import convert_color, convert_color_list
+from lame_core.ColorManager import convert_color, convert_color_list
 
 from PIL import Image
 from sklearn.cluster import KMeans

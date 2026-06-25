@@ -34,12 +34,12 @@ from matplotlib.figure import Figure
 import matplotlib.image as mpimg
 import cmcrameri.cm as cmr
 
-from src.controls import CustomAction, ToggleSwitch
-from src.ColorSelector import select_color
-from src.config import RESOURCE_PATH, ICONPATH
-from src.ternary_plot import ternary
-from src.ColorManager import convert_color, convert_color_list
-from src.ColorPicker import ImageColorPicker
+from lame_core.CustomWidgets import CustomAction, ToggleSwitch
+from .ColorSelector import select_color
+from lame_core.config import RESOURCE_PATH, ICONPATH
+from .ternary import ternary
+from lame_core.ColorManager import convert_color, convert_color_list
+from .ColorPicker import ImageColorPicker
 
 # Define transformation matrices
 cb_matrices = {

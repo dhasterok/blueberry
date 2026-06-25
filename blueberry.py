@@ -9,9 +9,9 @@ Date: 2024-06-20
 import sys
 from PyQt6.QtCore import QTimer
 from PyQt6.QtWidgets import QApplication, QSplashScreen, QMessageBox
-from src.ColormapEditor import ColormapEditorDialog
+from blueberry.ColormapEditor import ColormapEditorDialog
 from PyQt6.QtGui import QPixmap, QIcon
-from src.config import ICONPATH
+from lame_core.config import ICONPATH
 
 
 class BlueberryApp(ColormapEditorDialog):

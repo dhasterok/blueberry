@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "blueberry-colortools"
+version = "0.1.0"
+description = "Colormap editor and colour picker/selector widgets"
+requires-python = ">=3.11"
+dependencies = [
+    "PyQt6",
+    "numpy",
+    "matplotlib",
+    "cmcrameri",
+    "Pillow",
+    "scikit-learn",
+    "lame-core",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
